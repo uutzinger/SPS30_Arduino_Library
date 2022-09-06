@@ -1,0 +1,53 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SPS30   KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+sps_get_driver_version  KEYWORD2
+probe   KEYWORD2
+major   KEYWORD2
+minor   KEYWORD2
+serial  KEYWORD2
+driver_version  KEYWORD2
+start_measurement   KEYWORD2
+stop_measurement    KEYWORD2
+read_data_ready KEYWORD2
+get_fan_auto_cleaning_interval  KEYWORD2
+set_fan_auto_cleaning_interval	KEYWORD2
+get_fan_auto_cleaning_interval_days KEYWORD2
+set_fan_auto_cleaning_interval_days KEYWORD2
+start_manual_fan_cleaning   KEYWORD2
+reset   KEYWORD2
+sleep   KEYWORD2
+wake_up KEYWORD2
+read_device_status_register KEYWORD2
+i2c_general_call_reset  KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SPS30_I2C_ADDRESS   LITERAL1
+SPS_CMD_START_MEASUREMENT   LITERAL1
+SPS_CMD_START_MEASUREMENT_ARG   LITERAL1
+SPS_CMD_STOP_MEASUREMENT    LITERAL1
+SPS_CMD_READ_MEASUREMENT    LITERAL1
+SPS_CMD_GET_DATA_READY  LITERAL1
+SPS_CMD_AUTOCLEAN_INTERVAL  LITERAL1
+SPS_CMD_GET_FIRMWARE_VERSION    LITERAL1
+SPS_CMD_GET_SERIAL	LITERAL1
+SPS_CMD_RESET   LITERAL1
+SPS_CMD_SLEEP   LITERAL1
+SPS_CMD_READ_DEVICE_STATUS_REGR LITERAL1
+SPS_CMD_START_MANUAL_FAN_CLEANING   LITERAL1
+SPS_CMD_WAKE_UP LITERAL1
